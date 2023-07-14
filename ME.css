@@ -1,0 +1,1676 @@
+.container {
+    width: 1500px;
+    height: 1250px;
+    background-image: url(../gambar/background.jpg);
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* align-items: center; */
+}
+
+.header {
+    /* border: 1px solid black; */
+    height: 85px;
+    width: 1300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.lambang {
+    /* border: 1px solid black; */
+    width: 120px;
+    height: 85px;
+    background-image: url(../gambar/Lambang\ ME.png);
+    background-size: cover;
+}
+
+.akun {
+    /* border: 1px solid black; */
+    width: 225px;
+    height: 30px;
+    display: flex;
+    text-align: center;
+    /* display: none; */
+}
+
+.tulisan_login, .tulisan_register {
+    border: 3px solid green;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+.tulisan_login {
+    background-color: white;
+    color: green;
+}
+
+.tulisan_register {
+    background-color: green;
+    margin-left: 25px;
+    color: white;
+}
+
+/* bagian tengah landing awal------------------------------------------- */
+.overlaylanding1 {
+    position: absolute;
+	top: 750px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: rgb(0,0,0,0);
+    z-index: 10;
+    /* display: none; */
+}
+
+.informasi_awal {
+    width: 960px;
+    height: 425px;
+    margin-top: 45px;
+    background-color: green;
+    padding-top: 70px;
+    padding-left: 55px;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 190px;
+}
+
+.minuman_enak {
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.p1 {
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: arial;   
+}
+
+.p2 {
+    margin-top: 30px;
+}
+
+.p2, .p3, .p4, .p5 {
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+}
+
+.p3, .p4 {
+    margin-top: 5px;
+}
+
+.p4 {
+    margin-top: 10px;
+}
+
+.p5 {
+    margin-top: 50px;
+}
+
+.foto {
+    /* background-image: url(../gambar/); */
+    background-image: url(../gambar/foto.jpg);
+    background-size: cover;
+    width: 475px;
+    height: 345px;
+    position: absolute;
+    top: 70px;
+    right: -120px;
+    border-radius: 30px;
+}
+
+.lets_order {
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px 0px 0px 190px;
+}
+
+.product {
+    /* border: 1px solid black; */
+    width: 1125px;
+    height: 420px;
+    margin: 30px 0px 0px 190px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product1, .product2, .product3, .product4 {
+    /* border: 1px solid black; */
+    width: 260px;
+    height: 420px;
+    background-color: green;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.foto_product1, .foto_product2, .foto_product3,
+.foto_product4  {
+    background-size: cover;
+    border-radius: 20px;
+    height: 325px;
+    width: 260px;
+    /* border: 1px solid blue; */
+    box-sizing: border-box;
+}
+
+.foto_product1 {
+    background-image: url(../gambar/chocolate.png);
+}
+
+.foto_product2 {
+    background-image: url(../gambar/cappucino.png);
+}
+
+.foto_product3 {
+    background-image: url(../gambar/redvalvet.png);
+}
+
+.foto_product4 {
+    background-image: url(../gambar/taro.png);
+}
+
+.nama_product1, .nama_product2,
+.nama_product3, .nama_product4 {
+    margin: 20px 0px 0px 20px;
+    color: white;
+    font-size: 25px;
+    font-family: arial;
+}
+
+.harga_product1, .harga_product2,
+.harga_product3,.harga_product4 {
+    margin: 5px 0px 0px 20px;
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* pembuatan dropdown login dan register dan admin*/
+
+.overlay_akun {
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: absolute;
+    /* z-index: 1; */
+    display: none;
+}
+
+
+.container_akun {
+    /* border: 1px solid black; */
+    height: 600px;
+    width: 940px;
+    background-color: white;
+    margin-left: 280px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 3;
+    display: none;
+}
+
+.container_login, .container_register {
+    /* border: 1px solid yellow; */
+    width: 470px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------- */
+.container_login_putih, .container_register_putih {
+    /* border: 1px solid red; */
+    width: 470px;
+    height: 600px;
+    position: absolute;
+    left: 0px;
+    transition-duration: 1s;
+    display: flex;
+    flex-direction: column;
+    /* display: none; */
+}
+
+.tulisan_login1, .tulisan_register1 {
+    /* margin-top: 70px; */
+    margin-top: 100px;
+    color: green;
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.email_login input, .password_login input, 
+.fullname_login input, .email_register input,
+.password_register input, .fullname_register input {
+    border-radius: 15px;
+    border: 5px solid green ;
+    margin-top: 30px;
+    height: 55px;
+    width: 365px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.tombol_login, .tombol_register {
+    border-radius: 20px;
+    border: 2px solid green ;
+    height: 30px;
+    width: 140px;
+    font-size: 18px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 2%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+/* 00000000000000000000000000000000000000 */
+.background_hijau {
+    background-color: green;
+    width: 470px;
+    height: 600px;
+    position: absolute;
+    left: 0px;
+    transition-duration: 1s;
+    z-index: 3;
+
+}
+
+
+/*0000000000000000000000000000000000000000000000000000 */
+.container_login_hijau, .container_register_hijau {
+    width: 470px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    z-index: 4;
+    transition-duration: 1s;
+}
+
+.pemberitahuan_login1, .pemberitahuan_login2,
+.pemberitahuan_register1, .pemberitahuan_register2 {
+    /* border: 1px solid black; */
+    font-size: 40px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+    right: 0px;
+}
+
+.pemberitahuan_login2, .pemberitahuan_register2 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.pemberitahuan_login button, .pemberitahuan_register button {
+    border-radius: 20px;
+    border: 2px solid white ;
+    height: 40px;
+    width: 140px;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* landing 1 atau berhasil login pembeli dan admin */
+.akun_login, .akun_admin_login {
+    width: 250px;
+    height: 85px;
+	display: flex;
+	align-items: center;
+    flex-direction: row-reverse;
+    display: none;
+}
+
+.keranjang {
+	background-image: url(../gambar/keranjang.png);
+	background-size: cover;
+	width: 75px;
+	height: 63px;
+    cursor: pointer;
+    position: relative;
+    order: 2;
+    margin-right: 45px;
+}
+
+.jumlah_belanjaan {
+    border: 1px solid red;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    right: -10px;
+    top: -10px;
+    position: absolute;
+    text-align: center;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    display: none;
+}
+
+.total_jumlah_belanjaan{
+    color: white;
+    font-size: 30px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.foto_profil, .foto_profil_admin{
+	background-size: cover;
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	border: 3px solid green;
+    cursor: pointer;
+    position: relative;
+    margin-right: 23px;
+}
+
+.foto_profil {
+    background-image: url(../gambar/foto.png);
+}
+
+.foto_profil_admin {
+    background-image: url(../gambar/admin.png);
+}
+
+/* memunculkan dropdown untuk pembeli dan juga admin*/
+.overlay_dropdown_pembeli, .overlay_dropdown_admin {
+    position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: rgb(0,0,0,0.5);
+    display: none;
+	z-index: 1;
+}
+
+.container_dropdown_pembeli, .container_dropdown_admin {
+    background-color: rgb(182, 182, 182); 
+    width: 300px;
+    height: 220px;
+    border-radius: 15px;
+    top: 130px;
+    right: 130px;
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+
+.segitiga_dropdown_pembeli,.segitigadropdown {
+    background-image: url(../gambar/segitiga.png);
+    background-size: cover;
+    position: absolute;
+    top: -40px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.kotak_profile_dropdown_pembeli, .kotak_logout_dropdown_pembeli,
+.kotak1_dropdown_admin, .kotak2_dropdown_admin,
+.kotak_logout_dropdown_admin {
+    background-color: white;
+    border: 1px solid white;
+    height: 107px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.kotak_profile_dropdown_pembeli, .kotak1_dropdown_admin{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.kotak_logout_dropdown_pembeli, .kotak_logout_dropdown_admin{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.gambar_profile_dropdown_pembeli, .gambar_logout_dropdown_pembeli,
+.gambar_logout_dropdown_admin {
+    margin-left: 30px;
+    background-size: cover;
+    width: 50px;
+    height: 52.2px;
+}
+
+.gambar_profile_dropdown_pembeli {
+    background-image: url(../gambar/profil.png);
+}
+
+.gambar_logout_dropdown_pembeli,
+.gambar_logout_dropdown_admin {
+    background-image: url(../gambar/logout.png);
+}
+
+.gambar_product_dropdown_admin {
+    background-image: url(../gambar/product.png);
+    background-size: cover;
+    margin-left: 30px;
+    height: 50px;
+    width: 39px;
+}
+
+.gambar_toping_dropdown_admin {
+    background-image: url(../gambar/toping.png);
+    background-size: cover;
+    margin-left: 30px;
+    height: 50.1px;
+    width: 27.9527px;
+}
+
+.tulisan_profile_dropdown_pembeli, .tulisan_logout_dropdown_pembeli,
+.tulisan_add_product_admin, .tulisan_add_toping_admin, 
+.tulisan_logout_dropdown_admin {
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* detail product */
+.container_detail_product1, .container_detail_product2,
+.container_detail_product3, .container_detail_product4 {
+    display: none;
+}
+
+.detail_product1, .detail_product2,
+.detail_product3, .detail_product4 {
+	width: 1065px;
+	height: 605px;
+	/* border: 1px solid black; */
+	margin: 50px 0px 0px 200px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.foto_dp_product1, .foto_dp_product2,
+.foto_dp_product3, .foto_dp_product4 {
+	/* border: 1px solid black; */
+	height: 560px;
+	width: 450px;
+	border-radius: 40px;
+	background-size: cover;
+}
+
+.foto_dp_product1 {
+    background-image: url(../gambar/chocolate.png);
+}
+
+.foto_dp_product2 {
+    background-image: url(../gambar/cappucino.png);
+}
+
+.foto_dp_product3 {
+    background-image: url(../gambar/redvalvet.png);
+}
+
+.foto_dp_product4 {
+    background-image: url(../gambar/taro.png);
+}
+
+
+.informasi1_dp_product1, .informasi1_dp_product2,
+.informasi1_dp_product3, .informasi1_dp_product4 {
+	/* border: 1px solid blue; */
+	width: 580px;
+	height: 600px;
+}
+
+.nama_dp_product1, .harga_dp_product1, .tulisan_toping_dp_product1,
+.nama_dp_product2, .harga_dp_product2, .tulisan_toping_dp_product2,
+.nama_dp_product3, .harga_dp_product3, .tulisan_toping_dp_product3,
+.nama_dp_product4, .harga_dp_product4, .tulisan_toping_dp_product4 {
+	color: green;
+	height: 55px;
+	width: 570px;
+	/* border: 1px solid red; */
+	font-size: 55px;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.harga_dp_product1, .harga_dp_product2,
+.harga_dp_product3, .harga_dp_product4 {
+	height: 40px;
+	font-size: 35px;
+	margin-top: 20px;
+}
+
+.tulisan_toping_dp_product1, .tulisan_toping_dp_product2,
+.tulisan_toping_dp_product3, .tulisan_toping_dp_product4 {
+	height: 45px;
+	font-size: 40px;
+	margin-top: 25px;
+}
+
+.toping_dp_product1, .toping_dp_product2,
+.toping_dp_product3, .toping_dp_product4 {
+	/* border: 1px solid red; */
+	height: 285px;
+	margin-top: 35px;
+	display: flex;
+	flex-direction: column;
+}
+
+.toping_atas_dp_product1, .toping_atas_dp_product3,
+.toping_atas_dp_product2, .toping_atas_dp_product4 {
+	margin-bottom: 35px;
+}
+
+.toping_atas_dp_product1,.toping_bawah_dp_product1, 
+.toping_atas_dp_product2,.toping_bawah_dp_product2,
+.toping_atas_dp_product3,.toping_bawah_dp_product3,
+.toping_atas_dp_product4,.toping_bawah_dp_product4 {
+	/* border: 1px solid yellow; */
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* ----------- */
+.toping1_atas_dp_product1, .toping2_atas_dp_product1,
+.toping3_atas_dp_product1, .toping4_atas_dp_product1,
+.toping1_bawah_dp_product1, .toping2_bawah_dp_product1,
+.toping3_bawah_dp_product1, .toping4_bawah_dp_product1,
+.toping1_atas_dp_product2, .toping2_atas_dp_product2,
+.toping3_atas_dp_product2, .toping4_atas_dp_product2,
+.toping1_bawah_dp_product2, .toping2_bawah_dp_product2,
+.toping3_bawah_dp_product2, .toping4_bawah_dp_product2,
+.toping1_atas_dp_product3, .toping2_atas_dp_product3,
+.toping3_atas_dp_product3, .toping4_atas_dp_product3,
+.toping1_bawah_dp_product3, .toping2_bawah_dp_product3,
+.toping3_bawah_dp_product3, .toping4_bawah_dp_product3,
+.toping1_atas_dp_product4, .toping2_atas_dp_product4,
+.toping3_atas_dp_product4, .toping4_atas_dp_product4,
+.toping1_bawah_dp_product4, .toping2_bawah_dp_product4,
+.toping3_bawah_dp_product4, .toping4_bawah_dp_product4 {
+	/* border: 1px solid black; */
+	width: 120px;
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.foto1_toping_atas_dp_product1,.foto2_toping_atas_dp_product1,
+.foto3_toping_atas_dp_product1,.foto4_toping_atas_dp_product1,
+.foto1_toping_bawah_dp_product1,.foto2_toping_bawah_dp_product1,
+.foto3_toping_bawah_dp_product1,.foto4_toping_bawah_dp_product1, 
+.foto1_toping_atas_dp_product2,.foto2_toping_atas_dp_product2,
+.foto3_toping_atas_dp_product2,.foto4_toping_atas_dp_product2,
+.foto1_toping_bawah_dp_product2,.foto2_toping_bawah_dp_product2,
+.foto3_toping_bawah_dp_product2,.foto4_toping_bawah_dp_product2,
+.foto1_toping_atas_dp_product3,.foto2_toping_atas_dp_product3,
+.foto3_toping_atas_dp_product3,.foto4_toping_atas_dp_product3,
+.foto1_toping_bawah_dp_product3,.foto2_toping_bawah_dp_product3,
+.foto3_toping_bawah_dp_product3,.foto4_toping_bawah_dp_product3,
+.foto1_toping_atas_dp_product4,.foto2_toping_atas_dp_product4,
+.foto3_toping_atas_dp_product4,.foto4_toping_atas_dp_product4,
+.foto1_toping_bawah_dp_product4,.foto2_toping_bawah_dp_product4,
+.foto3_toping_bawah_dp_product4,.foto4_toping_bawah_dp_product4 {
+	background-size: cover;
+	/* border: 1px solid blue; */
+	height: 85px;
+	width: 85px;
+	border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.foto1_toping_atas_dp_product1, .foto1_toping_atas_dp_product2,
+.foto1_toping_atas_dp_product3, .foto1_toping_atas_dp_product4 {
+	background-image: url(../gambar/cincau.png);
+}
+
+.foto2_toping_atas_dp_product1, .foto2_toping_atas_dp_product2,
+.foto2_toping_atas_dp_product3, .foto2_toping_atas_dp_product4 {
+	background-image: url(../gambar/jelly.png);
+}
+
+.foto3_toping_atas_dp_product1, .foto3_toping_atas_dp_product2, 
+.foto3_toping_atas_dp_product3, .foto3_toping_atas_dp_product4 {
+	background-image: url(../gambar/keju.png);
+}
+
+.foto4_toping_atas_dp_product1, .foto4_toping_atas_dp_product2, 
+.foto4_toping_atas_dp_product3, .foto4_toping_atas_dp_product4{
+	background-image: url(../gambar/meses.png);
+}
+
+.foto1_toping_bawah_dp_product1, .foto1_toping_bawah_dp_product2, 
+.foto1_toping_bawah_dp_product3, .foto1_toping_bawah_dp_product4{
+	background-image: url(../gambar/sereal.png);
+}
+
+.foto2_toping_bawah_dp_product1, .foto2_toping_bawah_dp_product2,
+.foto2_toping_bawah_dp_product3, .foto2_toping_bawah_dp_product4 {
+	background-image: url(../gambar/toping_milo.png);
+}
+
+.foto3_toping_bawah_dp_product1, .foto3_toping_bawah_dp_product2, 
+.foto3_toping_bawah_dp_product3, .foto3_toping_bawah_dp_product4 {
+	background-image: url(../gambar/toping_oreo.png);
+}
+
+.foto4_toping_bawah_dp_product1, .foto4_toping_bawah_dp_product2, 
+.foto4_toping_bawah_dp_product3, .foto4_toping_bawah_dp_product4 {
+	background-image: url(../gambar/toping_regal.png);
+}
+
+.centang1_toping_atas_dp_product1, .centang2_toping_atas_dp_product1,
+.centang3_toping_atas_dp_product1, .centang4_toping_atas_dp_product1,
+.centang1_toping_bawah_dp_product1, .centang2_toping_bawah_dp_product1,
+.centang3_toping_bawah_dp_product1, .centang4_toping_bawah_dp_product1,
+
+.centang1_toping_atas_dp_product2, .centang2_toping_atas_dp_product2,
+.centang3_toping_atas_dp_product2, .centang4_toping_atas_dp_product2,
+.centang1_toping_bawah_dp_product2, .centang2_toping_bawah_dp_product2,
+.centang3_toping_bawah_dp_product2, .centang4_toping_bawah_dp_product2,
+
+.centang1_toping_atas_dp_product3, .centang2_toping_atas_dp_product3,
+.centang3_toping_atas_dp_product3, .centang4_toping_atas_dp_product3,
+.centang1_toping_bawah_dp_product3, .centang2_toping_bawah_dp_product3,
+.centang3_toping_bawah_dp_product3, .centang4_toping_bawah_dp_product3,
+
+.centang1_toping_atas_dp_product4, .centang2_toping_atas_dp_product4,
+.centang3_toping_atas_dp_product4, .centang4_toping_atas_dp_product4,
+.centang1_toping_bawah_dp_product4, .centang2_toping_bawah_dp_product4,
+.centang3_toping_bawah_dp_product4, .centang4_toping_bawah_dp_product4 {
+	/* border: 1px solid black; */
+	background-image: url(../gambar/centang.png);
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	display: none;
+}
+
+.nama1_toping_atas_dp_product1, .nama2_toping_atas_dp_product1,
+.nama3_toping_atas_dp_product1, .nama4_toping_atas_dp_product1,
+.nama1_toping_bawah_dp_product1, .nama2_toping_bawah_dp_product1,
+.nama3_toping_bawah_dp_product1, .nama4_toping_bawah_dp_product1,
+.nama1_toping_atas_dp_product2, .nama2_toping_atas_dp_product2,
+.nama3_toping_atas_dp_product2, .nama4_toping_atas_dp_product2,
+.nama1_toping_bawah_dp_product2, .nama2_toping_bawah_dp_product2,
+.nama3_toping_bawah_dp_product2, .nama4_toping_bawah_dp_product2,
+.nama1_toping_atas_dp_product3, .nama2_toping_atas_dp_product3,
+.nama3_toping_atas_dp_product3, .nama4_toping_atas_dp_product3,
+.nama1_toping_bawah_dp_product3, .nama2_toping_bawah_dp_product3,
+.nama3_toping_bawah_dp_product3, .nama4_toping_bawah_dp_product3,
+.nama1_toping_atas_dp_product4, .nama2_toping_atas_dp_product4,
+.nama3_toping_atas_dp_product4, .nama4_toping_atas_dp_product4,
+.nama1_toping_bawah_dp_product4, .nama2_toping_bawah_dp_product4,
+.nama3_toping_bawah_dp_product4, .nama4_toping_bawah_dp_product4 {
+	/* border: 1px solid blue; */
+	margin-top: 8px;
+	font-size: 20px;
+	color: green;
+	font-weight: bold;
+	
+}
+
+.kotak_harga_product1, .kotak_harga_product2, 
+.kotak_harga_product3, .kotak_harga_product4 {
+	margin-top: 40px;
+	/* border: 1px solid red; */
+	display: flex;
+	height: 40px;
+	width: 555px;
+	justify-content: space-between;
+}
+
+.tulisan_total_product1, .total_uang_product1, 
+.tulisan_total_product2, .total_uang_product2, 
+.tulisan_total_product3, .total_uang_product3, 
+.tulisan_total_product4, .total_uang_product4 {
+	font-size: 30px;
+	color: green;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+	/* border: 1px solid blue; */
+}
+
+.add_cart_product1, .add_cart_product2,
+.add_cart_product3, .add_cart_product4{
+	/* border: 1px solid blue; */
+	margin-top: 50px;
+	height: 50px;
+	width: 1065px;
+	margin-left: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.add_cart_close_product1, .tulisan_add_cart_product1,
+.add_cart_close_product2, .tulisan_add_cart_product2,
+.add_cart_close_product3, .tulisan_add_cart_product3, 
+.add_cart_close_product4, .tulisan_add_cart_product4 {
+	text-align: center;
+	border: 6px solid green;
+	font-size: 25px;
+	padding-top: 8px;
+	height: 45px;
+	font-weight: bold;
+	font-family: arial;
+	border-radius: 15px;
+}
+
+.add_cart_close_product1, .add_cart_close_product2, 
+.add_cart_close_product3, .add_cart_close_product4 {
+	color: green;
+	width: 450px;
+    cursor: pointer;
+}
+
+.tulisan_add_cart_product1, .tulisan_add_cart_product2, 
+.tulisan_add_cart_product3, .tulisan_add_cart_product4 {
+	width: 550px;
+	color: white;
+	background-color: green;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/*  */
+/* kotak my cart ---------------------------------------------------- */
+.container_my_cart {
+	/* border: 1px solid black; */
+	height: 1000px;
+	margin-top: 35px;
+	/* display: flex; */
+    display: none;
+}
+
+.cart_kiri {
+	/* border: 1px solid blue; */
+	height: 740px;
+	margin: 0px 0px 0px 185px;
+	width: 700px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    position: relative;
+}
+
+/* cart bagian atas----------------------------------------- */
+.cart_atas {
+	/* border: 1px solid red; */
+	height: 80px;
+	width: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.my_cart, .review_order {
+	/* border: 1px solid yellow; */
+	font-family: arial;
+	font-weight: bold;
+	color: green;
+}
+
+.my_cart {
+	font-size: 25px;
+	height: 30px;
+}
+
+.review_order{
+	font-size: 20px;
+	height: 20px;
+}
+
+/* cart bagian tengah-------------------------------------- */
+.cart_tengah {
+	border-top: 8px solid green;
+	border-bottom: 8px solid green;
+	height: auto;
+	width: 700px;
+	margin-top: 0px;
+}
+
+.product_cart1, .product_cart2 {
+	/* border: 1px solid red; */
+	height: 130px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.foto_cart1, .foto_cart2 {
+	/* border: 1px solid black; */
+	background-size: cover;
+	width: 90px;
+	height: 120px;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+.foto_cart1 {
+	background-image: url(../gambar/chocolate.png);
+} 
+
+.foto_cart2 {
+	background-image: url(../gambar/cappucino.png);
+}
+
+.informasi1_cart1, .informasi2_cart1,
+.informasi1_cart2, .informasi2_cart2 {
+	/* border: 1px solid black; */
+	width: 285px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.nama_product_cart1, .nama_toping_cart1, .harga_product_cart1, 
+.nama_product_cart2, .nama_toping_cart2, .harga_product_cart2 {
+	/* border: 1px solid blue; */
+	height: 20px;
+	color: green;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.nama_product_cart1, .nama_product_cart2 {
+	font-size: 20px;
+}
+
+.nama_toping_cart1, .nama_toping_cart2 {
+	font-size: 15px;
+}
+
+.harga_product_cart1, .harga_product_cart2{
+	text-align: right;
+	margin-right: 10px;
+}
+
+.gambar_sampah1, .gambar_sampah2 {
+	background-image: url(../gambar/sampah.png);
+	background-size: cover;
+	/* border: 1px solid green; */
+	height: 28px;
+	width: 21.6px;
+	margin-left: 260px;
+	padding: 1px;
+}
+
+.informasi2_cart1 {
+	/* border: 1px solid black; */
+	width: 285px;
+	height: 100px;
+}
+
+
+/* cart bagian bawah----------------------------------------- */
+.cart_bawah {
+	height: 100px;
+	width: 700px;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cart_bawah_kiri {
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+	height: 96px;
+}
+
+.cart_bawah_garis {
+	position: absolute;
+	border-top: 5px solid green;
+	border-bottom: 5px solid green;
+	width: 400px;
+	height: 62px;
+	margin-top: 0px;
+}
+
+.cart_bawah_kirikiri, .cart_bawah_kirikanan {
+	/* border: 1px solid yellow; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.cart_subtotal, .cart_qty, .cart_total, .cart_subtotal_harga, .cart_qty_jumlah, .cart_total_harga {
+	/* border: 1px solid blue; */
+	height: 20px;
+	width: 150px;
+	color: green;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.cart_subtotal_harga, .cart_qty_jumlah, .cart_total_harga {
+	text-align: right;
+}
+
+.cart_bawah_kanan {
+	border: 1px solid green;
+	background-color: rgb(214, 207, 207);
+	width: 200px;
+	height: 96px;
+	border-radius: 10px;
+	align-items: center;
+	text-align: center;
+	overflow: hidden;
+}
+
+.gambar_nota {
+	background-image: url(../gambar/nota.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40px;
+	/* border: 1px solid black; */
+	height: 60px;
+}
+
+.cart_nota {
+	/* border: 1px solid black; */
+	margin-top: 2px;
+	height: 30px;
+	color: rgb(105, 104, 104);
+	font-size: 20px;
+}
+
+
+/* cart bagian kanan---------------------------------- */
+.cart_kanan {
+	/* border: 1px solid yellow; */
+	margin: 0px;
+	height: 740px;
+	width: 370px;
+	margin: 100px 0px 0px 80px;
+    position: relative;
+}
+
+.cart_nama input, .cart_email input,
+.cart_phone input, .cart_poscode input {
+	border: 3px solid green;
+    border-radius:7px;
+    margin-bottom: 30px;
+    background-color: rgb(214, 207, 207);
+	color: rgb(131, 130, 130);
+    font-size: 24px;
+    padding: 13px;
+	width: 370px;
+}
+
+.cart_addres input{
+	border: 3px solid green;
+    border-radius:7px;
+    margin-bottom: 30px;
+    background-color: rgb(214, 207, 207);
+	color: rgb(131, 130, 130);
+    font-size: 24px;
+    padding: 13px;
+	height: 150px;
+	width: 370px;
+}
+
+.cart_pay {
+	border: 3px solid green;
+    border-radius:7px;
+    background-color: green;
+	color: white;
+    font-size: 24px;
+	height: 35px;
+	width: 396px;
+	text-align: center;
+	padding-top: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* bagian profile *****************************
+/* kotak ke 1 profile---------------------------------------------- */
+.container_profile {
+	display: none;
+	
+}
+.kotak1_profile, .kotak2_profile  {
+    /* border: 1px solid blue; */
+    height: 50px;
+    width: 1200px;
+    margin: 0px 0px 0px 175px;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 50px;
+}
+
+.my_profile, .my_transaction{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 600px;
+    color: green;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* kotak ke 2 profile--------------------------------- */
+.kotak2_profile {
+    height: 300px;
+    margin-top: 30px;
+}
+
+.kotak_foto_profile {
+    background-image: url(../gambar/foto.png);
+    background-size: cover;
+    background-position: center;
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.kotak_data_pembeli {
+    /* border: 1px solid black; */
+    height: 120px;
+    width: 300px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.data_pembeli_full_name, .data_pembeli_email_name,
+.data_pembeli_name, .data_pembeli_email  {
+    /* border: 1px solid black; */
+    font-size: 25px;
+    color: green;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.data_pembeli_name, .data_pembeli_email {
+    /* border: 1px solid blue; */
+    font-size: 20px;
+}
+
+.data_pembeli_email_name {
+    margin-top: 20px;
+}
+
+.close_kotak_profile {
+	background-color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 250px;
+    height: 25px;
+    color: green;
+    border-radius: 10px;
+    font-weight: bold;
+	border: 5px solid green;
+	margin-top: 137px;
+	cursor: pointer;
+}
+
+/* bagian transaction--------------------------------- */
+.kotak_transaction {
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    width: 600px;
+    margin-left: 70px;
+    background-color: rgb(0, 128, 0, 0.9);
+    display: flex;
+    overflow: hidden;
+}
+
+.transaction_informasi {
+    /* border: 1px solid black; */
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.transaction_pembelian1, .transaction_pembelian2 {
+    /* border: 1px solid blue; */
+    width: 340px;
+    height: 110px;
+    display: flex;
+}
+
+.transaction_foto_pembelian1, .transaction_foto_pembelian2 {
+    background-size: cover;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    height: 100px;
+    width: 80px;
+}
+
+.transaction_foto_pembelian1 {
+    background-image: url(../gambar/chocolate.png);
+}
+
+.transaction_foto_pembelian2 {
+    background-image: url(../gambar/cappucino.png);
+}
+
+.transaction_product_pembelian1, .transaction_product_pembelian2 {
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    width: 240px;
+}
+
+.transaction_nama1, .transaction_nama2 {
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+}
+
+.transaction_waktu1, .transaction_harga1,
+.transaction_waktu2, .transaction_harga2 {
+    font-size: 13px;
+    margin-top: 5px;
+    font-family: arial;
+    /* font-weight: bold; */
+    color: white;
+}
+
+.transaction_toping1, .transaction_toping2 {
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* bagian barcode dll--------------------- */
+.transaction_data {
+    /* border: 1px solid red; */
+    margin-left: 30px;
+    width: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transaction_lambang {
+    background-image: url(../gambar/Lambang\ ME.png);
+    background-size: cover;
+    background-position: center;
+    width: 105px;
+    height: 75px;
+    /* border: 1px solid blue; */
+    margin-top: 10px;
+}
+
+.transaction_barcode {
+    background-image: url(../gambar/barcode.png);
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+}
+
+.transaction_otw {
+    background-color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-top: 5px;
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    color: green;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.transaction_sub_total {
+    margin-top: 20px;
+    padding-top: 2px;
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* bagian admin  *************************************/
+/* add product dan toping masuk */
+/* .landing1 {
+    display: none;
+} */
+
+.kotak_product_masuk, .kotak_toping_masuk {
+	/* border: 1px solid black; */
+	height: 600px;
+	width: 1200px;
+	margin-left: 200px;
+    margin-top: 50px;
+	display: flex;
+    position: relative;
+    display: none;
+}
+
+.product_masuk, .toping_masuk {
+	/* border: 1px solid black; */
+	width: 600px;
+	position: relative;
+}
+.tulisan_product_masuk, .tulisan_toping_masuk {
+	/* border: 1px solid black; */
+	color: green;
+	font-size: 40px;
+	font-family: arial;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.nama_product_masuk input, .harga_product_masuk input,
+.photo_product_masuk, .nama_toping_masuk input,
+.harga_toping_masuk input, .photo_toping_masuk {
+	border: 3px solid green;
+    border-radius : 15px;
+    margin-bottom : 30px;
+    background-color: rgb(214, 207, 207);
+	color: rgb(131, 130, 130);
+    font-size: 24px;
+    padding: 13px;
+    width: 570px;
+}
+
+.add_product_masuk, .add_toping_masuk {
+	border: 1px solid green;
+	background-color: green;
+	border-radius: 10px;
+	padding: 13px;
+	color: white;
+	text-align: center;
+	width: 500px;
+	font-size: 20px;
+	margin: 60px 35px 0px 35px;
+    cursor: pointer;
+}
+
+.link_foto_product_masuk, .link_foto_toping_masuk {
+	background-image: url(../gambar/clip.png);
+	background-size: cover;
+	/* border: 1px solid black; */
+	width: 25px;
+    height: 40px;
+	position: absolute;
+	top: 264px;
+	right: 20px;
+    cursor: pointer;
+}
+
+.close_product_masuk,.close_toping_masuk {
+    border: 1px solid green;
+	background-color: green;
+	border-radius: 10px;
+	padding: 13px;
+	color: white;
+	text-align: center;
+	width: 100px;
+	font-size: 25px;
+	margin: 60px 35px 0px 35px;
+    cursor: pointer;
+    
+}
+
+.foto_product_masuk, .foto_toping_masuk {
+	/* border: 1px solid black; */
+	width: 450px;
+	margin-left: 90px;
+	background-size: cover;
+	border-radius: 30px;
+}
+
+.foto_product_masuk {
+    background-image: url(../gambar/chocolate.png);
+}
+
+.foto_toping_masuk {
+    background-image: url(../gambar/cincau.png);
+    border-radius: 100%;
+    height: 450px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* bagian income transaction++++++++++++++++++++++++ */
+.container_income {
+	/* border: 1px solid black; */
+	margin: 50px 0px 0px 100px;
+	width: 1230px;
+    display: none;
+}
+
+.tulisan_income_transaction {
+	/* border: 1px solid black; */
+	font-size: 20px;
+	color: green;
+	font-size: 30px;
+	font-family: arial;
+	margin: 0px 0px 25px 0px;
+	font-weight: bold;
+}
+
+.tabel_income {
+	/* border: 1px solid blue; */
+	margin-left: 50px;
+	border-collapse: collapse;
+}
+
+.tabel_income tr td {
+	border: 1px solid black;
+	width: 265px;
+	height: 30px;
+}
+
+.coloum1_1, .coloum1_2, .coloum1_3, .coloum1_4, 
+.coloum1_5, .coloum1_6, .coloum1_7 {
+	font-size: 15px;
+	padding: 5px 10px;
+	font-weight: bold;
+	background-color: rgb(158, 157, 156);
+} 
+
+.coloum2_1, .coloum2_2, .coloum2_3, .coloum2_4, .coloum2_5,
+.coloum2_6, .coloum2_7, .coloum3_1, .coloum3_2, .coloum3_3,
+.coloum3_4, .coloum3_5, .coloum3_6, .coloum3_7, .coloum4_1,
+.coloum4_2, .coloum4_3, .coloum4_4, .coloum4_5, .coloum4_6,
+.coloum4_7, .coloum5_1, .coloum5_2, .coloum5_3, .coloum5_4,
+.coloum5_5, .coloum5_6, .coloum5_7 {
+	padding-left: 10px;
+    background-color: white;
+}
+
+.coloum2_5, .coloum3_5, .coloum4_5, .coloum5_5 {
+	color: blue;
+}
+
+.coloum2_6 {
+	color: orange;
+}
+
+.coloum3_6 {
+	color: green;
+}
+
+.coloum4_6 {
+	color: red;
+}
+
+.coloum5_6 {
+	color: blue;
+}
+
+.coloum2_7 {
+	position: relative;
+}
+
+.cancel, .approve {
+	color: white;
+	padding: 3px 10px;
+	margin: 2px 10px 2px 10px;
+	border-radius: 10px;
+}
+
+.cancel {
+	background-color: red;
+	width: 50px;
+	position: relative;
+}
+
+.approve {
+	background-color: green;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.centang_coloum3_7, .silang_coloum4_7, .centang_coloum5_7 {
+	background-size: cover;
+	height: 15px;
+	width: 15px;
+	margin: auto;
+}
+
+.centang_coloum3_7, .centang_coloum5_7 {
+	background-image: url(../gambar/centang.png);
+}
+
+.silang_coloum4_7 {
+	background-image: url(../gambar/silang.png);
+}
+
+
+
+
+
+
+
+
+
+
+
