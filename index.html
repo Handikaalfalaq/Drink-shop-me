@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minuman Enak</title>
+    <link rel="stylesheet" href="ME.css">
+</head>
+<body>
+    <div class="container">
+
+    <!-- bagian landing ke 1 -->
+        <div class="header">
+            <div class="lambang"></div>
+            <div class="akun">
+                <div class="tulisan_login">Login</div>
+                <div class="tulisan_register">Register</div>
+            </div>
+
+            <!-- setelah berhasil login -->
+            <!-- login pembeli -->
+            <div class="akun_login">
+                <div class="keranjang">
+                    <div class="jumlah_belanjaan">
+                        <div class="total_jumlah_belanjaan">0</div>
+                    </div>
+                </div>
+                <div class="foto_profil"></div>
+            </div>
+
+            <!-- login admin -->
+            <div class="akun_admin_login">
+                <div class="foto_profil_admin"></div>
+            </div>
+
+
+        </div>
+
+        <div class="landing1">
+            <div class="overlaylanding1"></div>
+            <div class="informasi_awal">
+                <div class="minuman_enak">Minuman Enak</div>
+                <div class="p1">Things are changing, but we're still here for you</div>
+                <div class="p2">We have temporarily closed our in-store, but select 
+                <div class="p3">grocery and drive-thru locations remaining open.</div>
+                <div class="p4"><b>Minuman Enak</b> drivers is also available</div>
+                </div>
+                <div class="p5">Let's Order...</div>
+                <div class="foto"></div>
+            </div>
+            <div class="lets_order">Let's Order</div>
+            <div class="product">
+                <div class="product1">
+                    <div class="foto_product1"></div>
+                    <div class="nama_product1">Chocolate</div>
+                    <div class="harga_product1"></div>
+                </div>
+                <div class="product2">
+                    <div class="foto_product2"></div>
+                    <div class="nama_product2">Cappucino</div>
+                    <div class="harga_product2"></div>
+                </div>
+                <div class="product3">
+                    <div class="foto_product3"></div>
+                    <div class="nama_product3">Red Valvet</div>
+                    <div class="harga_product3"></div>
+                </div>
+                <div class="product4">
+                    <div class="foto_product4"></div>
+                    <div class="nama_product4">Taro</div>
+                    <div class="harga_product4"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- bagian dropdown login -->
+        <div class="overlay_akun"></div>
+        <div class="container_akun">
+            <div class="background_hijau"></div>
+            <div class="container_login">
+                <div class="container_login_putih">
+                    <div class="tulisan_login1">Login</div>
+                    <div class="email_login"><input type="text" placeholder="Email"></div>
+                    <div class="password_login"><input type="password" placeholder="Password"></div>
+                    <div class="tombol_login">Login</div>
+                </div>
+                <div class="container_login_hijau">
+                    <div class="pemberitahuan_login1">Hello, Friend!</div>
+                    <div class="pemberitahuan_login2">Already have an account?</div>
+                    <div class="pemberitahuan_login"><button><b>Login</b></button></div>
+                </div>
+            </div>
+            
+
+        <!-- bagian dropdown register -->
+            <div class="container_register">
+                <div class="container_register_putih">
+                    <div class="tulisan_register1">Register</div>
+                    <div class="email_register"><input type="text" placeholder="Email"></div>
+                    <div class="password_register"><input type="password" placeholder="Password"></div>
+                    <div class="fullname_register"><input type="text" placeholder="Full Name"></div>
+                    <div class="tombol_register">Register</div>
+                </div>
+                
+                <div class="container_register_hijau">
+                    <div class="pemberitahuan_register1">Hello, Friend!</div>
+                    <div class="pemberitahuan_register2">don't have an account?</div>
+                    <div class="pemberitahuan_register"><button><b>Register</b></button></div>
+                </div>
+            </div>    
+        </div>
+
+
+        <!-- dropdown untuk pembeli -->
+        <div class="overlay_dropdown_pembeli"></div>
+        <div class="container_dropdown_pembeli">
+            <div class="segitiga_dropdown_pembeli"></div>
+            <div class="kotak_profile_dropdown_pembeli">
+                <div class="gambar_profile_dropdown_pembeli"></div>
+                <div class="tulisan_profile_dropdown_pembeli">Profile</div>
+            </div>
+            <div class="kotak_logout_dropdown_pembeli">
+                <div class="gambar_logout_dropdown_pembeli"></div>
+                <div class="tulisan_logout_dropdown_pembeli">Logout</div>
+            </div> 
+        </div>
+
+        <!-- dropdown untuk admin -->
+        <div class="overlay_dropdown_admin"></div>
+        <div class="container_dropdown_admin">
+            <div class="segitigadropdown"><img src="../gambar/segitiga.png" width="50px"></div>
+            <div class="kotak1_dropdown_admin">
+                <div class="gambar_product_dropdown_admin"></div>
+                <div class="tulisan_add_product_admin">Add Product</div>
+            </div>
+    
+            <div class="kotak2_dropdown_admin">
+                <div class="gambar_toping_dropdown_admin"></div>
+                <div class="tulisan_add_toping_admin">Add Toping</div>
+            </div>
+    
+            <div class="kotak_logout_dropdown_admin">
+                <div class="gambar_logout_dropdown_admin"></div>
+                <div class="tulisan_logout_dropdown_admin">Logout</div>
+            </div> 
+        </div>
+
+        <!-- bagian detail product 1 -->
+        <div class="container_detail_product1">
+            <div class="detail_product1">
+                <div class="foto_dp_product1"></div>
+                <div class="informasi_dp_product1">
+                    <div class="nama_dp_product1">Chocolate</div>
+                    
+                    <div class="harga_dp_product1"></div>
+                    
+                    <div class="tulisan_toping_dp_product1">Toping :</div>
+                    
+                    <div class="toping_dp_product1">
+                        <div class="toping_atas_dp_product1">
+                            <div class="toping1_atas_dp_product1">
+                                <div class="foto1_toping_atas_dp_product1">
+                                    <div class="centang1_toping_atas_dp_product1"></div>
+                                </div>
+                                <div class="nama1_toping_atas_dp_product1">"Cincau"</div>
+                            </div>
+
+                            <div class="toping2_atas_dp_product1">
+                                <div class="foto2_toping_atas_dp_product1">
+                                    <div class="centang2_toping_atas_dp_product1"></div>
+                                </div>
+                                <div class="nama2_toping_atas_dp_product1">"Jelly"</div>
+                            </div>
+
+                            <div class="toping3_atas_dp_product1">
+                                <div class="foto3_toping_atas_dp_product1">
+                                    <div class="centang3_toping_atas_dp_product1"></div>
+                                </div>
+                                <div class="nama3_toping_atas_dp_product1">"Keju"</div>
+                            </div>
+
+                            <div class="toping4_atas_dp_product1">
+                                <div class="foto4_toping_atas_dp_product1">
+                                    <div class="centang4_toping_atas_dp_product1"></div>
+                                </div>
+                                <div class="nama4_toping_atas_dp_product1">"Meses"</div>
+                            </div>
+
+                        </div>
+                    
+                        <div class="toping_bawah_dp_product1">
+                            <div class="toping1_bawah_dp_product1">
+                                <div class="foto1_toping_bawah_dp_product1">
+                                    <div class="centang1_toping_bawah_dp_product1"></div>
+                                </div>
+                                <div class="nama1_toping_bawah_dp_product1">"Sereal"</div>
+                            </div>
+
+                            <div class="toping2_bawah_dp_product1">
+                                <div class="foto2_toping_bawah_dp_product1">
+                                    <div class="centang2_toping_bawah_dp_product1"></div>
+                                </div>
+                                <div class="nama2_toping_bawah_dp_product1">"Milo"</div>
+                            </div>
+
+                            <div class="toping3_bawah_dp_product1">
+                                <div class="foto3_toping_bawah_dp_product1">
+                                    <div class="centang3_toping_bawah_dp_product1"></div>
+                                </div>
+                                <div class="nama3_toping_bawah_dp_product1">"Oreo"</div>
+                            </div>
+
+                            <div class="toping4_bawah_dp_product1">
+                                <div class="foto4_toping_bawah_dp_product1">
+                                    <div class="centang4_toping_bawah_dp_product1"></div>
+                                </div>
+                                <div class="nama4_toping_bawah_dp_product1">"Regal"</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="kotak_harga_product1">
+                        <div class="tulisan_total_product1">Total</div>
+                        <div class="total_uang_product1"></div>
+                    </div>
+                </div>	
+            </div>
+
+            <!-- bagian add cart -->
+            <div class="add_cart_product1">
+                <div class="add_cart_close_product1">Close</div>
+                <div class="tulisan_add_cart_product1">Add Cart</div>
+            </div>
+        </div>
+
+        <!-- bagian detail product 2 -->
+        <div class="container_detail_product2">
+            <div class="detail_product2">
+                <div class="foto_dp_product2"></div>
+                <div class="informasi_dp_product2">
+                    <div class="nama_dp_product2">Cappucino</div>
+                    
+                    <div class="harga_dp_product2"></div>
+                    
+                    <div class="tulisan_toping_dp_product2">Toping :</div>
+                    
+                    <div class="toping_dp_product2">
+                        <div class="toping_atas_dp_product2">
+                            <div class="toping1_atas_dp_product2">
+                                <div class="foto1_toping_atas_dp_product2">
+                                    <div class="centang1_toping_atas_dp_product2"></div>
+                                </div>
+                                <div class="nama1_toping_atas_dp_product2">"Cincau"</div>
+                            </div>
+
+                            <div class="toping2_atas_dp_product2">
+                                <div class="foto2_toping_atas_dp_product2">
+                                    <div class="centang2_toping_atas_dp_product2"></div>
+                                </div>
+                                <div class="nama2_toping_atas_dp_product2">"Jelly"</div>
+                            </div>
+
+                            <div class="toping3_atas_dp_product2">
+                                <div class="foto3_toping_atas_dp_product2">
+                                    <div class="centang3_toping_atas_dp_product2"></div>
+                                </div>
+                                <div class="nama3_toping_atas_dp_product2">"Keju"</div>
+                            </div>
+
+                            <div class="toping4_atas_dp_product2">
+                                <div class="foto4_toping_atas_dp_product2">
+                                    <div class="centang4_toping_atas_dp_product2"></div>
+                                </div>
+                                <div class="nama4_toping_atas_dp_product2">"Meses"</div>
+                            </div>
+
+                        </div>
+                    
+                        <div class="toping_bawah_dp_product2">
+                            <div class="toping1_bawah_dp_product2">
+                                <div class="foto1_toping_bawah_dp_product2">
+                                    <div class="centang1_toping_bawah_dp_product2"></div>
+                                </div>
+                                <div class="nama1_toping_bawah_dp_product2">"Sereal"</div>
+                            </div>
+
+                            <div class="toping2_bawah_dp_product2">
+                                <div class="foto2_toping_bawah_dp_product2">
+                                    <div class="centang2_toping_bawah_dp_product2"></div>
+                                </div>
+                                <div class="nama2_toping_bawah_dp_product2">"Milo"</div>
+                            </div>
+
+                            <div class="toping3_bawah_dp_product2">
+                                <div class="foto3_toping_bawah_dp_product2">
+                                    <div class="centang3_toping_bawah_dp_product2"></div>
+                                </div>
+                                <div class="nama3_toping_bawah_dp_product2">"Oreo"</div>
+                            </div>
+
+                            <div class="toping4_bawah_dp_product2">
+                                <div class="foto4_toping_bawah_dp_product2">
+                                    <div class="centang4_toping_bawah_dp_product2"></div>
+                                </div>
+                                <div class="nama4_toping_bawah_dp_product2">"Regal"</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="kotak_harga_product2">
+                        <div class="tulisan_total_product2">Total</div>
+                        <div class="total_uang_product2"></div>
+                    </div>
+                </div>	
+            </div>
+
+            <!-- bagian add cart -->
+            <div class="add_cart_product2">
+                <div class="add_cart_close_product2">Close</div>
+                <div class="tulisan_add_cart_product2">Add Cart</div>
+            </div>
+        </div>
+        
+        <!-- bagian detail product 3 -->
+        <div class="container_detail_product3">
+            <div class="detail_product3">
+                <div class="foto_dp_product3"></div>
+                <div class="informasi_dp_product3">
+                    <div class="nama_dp_product3">Cappucino</div>
+                    
+                    <div class="harga_dp_product3"></div>
+                    
+                    <div class="tulisan_toping_dp_product3">Toping :</div>
+                    
+                    <div class="toping_dp_product3">
+                        <div class="toping_atas_dp_product3">
+                            <div class="toping1_atas_dp_product3">
+                                <div class="foto1_toping_atas_dp_product3">
+                                    <div class="centang1_toping_atas_dp_product3"></div>
+                                </div>
+                                <div class="nama1_toping_atas_dp_product3">"Cincau"</div>
+                            </div>
+
+                            <div class="toping2_atas_dp_product3">
+                                <div class="foto2_toping_atas_dp_product3">
+                                    <div class="centang2_toping_atas_dp_product3"></div>
+                                </div>
+                                <div class="nama2_toping_atas_dp_product3">"Jelly"</div>
+                            </div>
+
+                            <div class="toping3_atas_dp_product3">
+                                <div class="foto3_toping_atas_dp_product3">
+                                    <div class="centang3_toping_atas_dp_product3"></div>
+                                </div>
+                                <div class="nama3_toping_atas_dp_product3">"Keju"</div>
+                            </div>
+
+                            <div class="toping4_atas_dp_product3">
+                                <div class="foto4_toping_atas_dp_product3">
+                                    <div class="centang4_toping_atas_dp_product3"></div>
+                                </div>
+                                <div class="nama4_toping_atas_dp_product3">"Meses"</div>
+                            </div>
+
+                        </div>
+                    
+                        <div class="toping_bawah_dp_product3">
+                            <div class="toping1_bawah_dp_product3">
+                                <div class="foto1_toping_bawah_dp_product3">
+                                    <div class="centang1_toping_bawah_dp_product3"></div>
+                                </div>
+                                <div class="nama1_toping_bawah_dp_product3">"Sereal"</div>
+                            </div>
+
+                            <div class="toping2_bawah_dp_product3">
+                                <div class="foto2_toping_bawah_dp_product3">
+                                    <div class="centang2_toping_bawah_dp_product3"></div>
+                                </div>
+                                <div class="nama2_toping_bawah_dp_product3">"Milo"</div>
+                            </div>
+
+                            <div class="toping3_bawah_dp_product3">
+                                <div class="foto3_toping_bawah_dp_product3">
+                                    <div class="centang3_toping_bawah_dp_product3"></div>
+                                </div>
+                                <div class="nama3_toping_bawah_dp_product3">"Oreo"</div>
+                            </div>
+
+                            <div class="toping4_bawah_dp_product3">
+                                <div class="foto4_toping_bawah_dp_product3">
+                                    <div class="centang4_toping_bawah_dp_product3"></div>
+                                </div>
+                                <div class="nama4_toping_bawah_dp_product3">"Regal"</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="kotak_harga_product3">
+                        <div class="tulisan_total_product3">Total</div>
+                        <div class="total_uang_product3"></div>
+                    </div>
+                </div>	
+            </div>
+
+            <!-- bagian add cart -->
+            <div class="add_cart_product3">
+                <div class="add_cart_close_product3">Close</div>
+                <div class="tulisan_add_cart_product3">Add Cart</div>
+            </div>
+        </div>
+
+        <!-- bagian detail product 4 -->
+        <div class="container_detail_product4">
+            <div class="detail_product4">
+                <div class="foto_dp_product4"></div>
+                <div class="informasi_dp_product4">
+                    <div class="nama_dp_product4">Cappucino</div>
+                    
+                    <div class="harga_dp_product4"></div>
+                    
+                    <div class="tulisan_toping_dp_product4">Toping :</div>
+                    
+                    <div class="toping_dp_product4">
+                        <div class="toping_atas_dp_product4">
+                            <div class="toping1_atas_dp_product4">
+                                <div class="foto1_toping_atas_dp_product4">
+                                    <div class="centang1_toping_atas_dp_product4"></div>
+                                </div>
+                                <div class="nama1_toping_atas_dp_product4">"Cincau"</div>
+                            </div>
+
+                            <div class="toping2_atas_dp_product4">
+                                <div class="foto2_toping_atas_dp_product4">
+                                    <div class="centang2_toping_atas_dp_product4"></div>
+                                </div>
+                                <div class="nama2_toping_atas_dp_product4">"Jelly"</div>
+                            </div>
+
+                            <div class="toping3_atas_dp_product4">
+                                <div class="foto3_toping_atas_dp_product4">
+                                    <div class="centang3_toping_atas_dp_product4"></div>
+                                </div>
+                                <div class="nama3_toping_atas_dp_product4">"Keju"</div>
+                            </div>
+
+                            <div class="toping4_atas_dp_product4">
+                                <div class="foto4_toping_atas_dp_product4">
+                                    <div class="centang4_toping_atas_dp_product4"></div>
+                                </div>
+                                <div class="nama4_toping_atas_dp_product4">"Meses"</div>
+                            </div>
+
+                        </div>
+                    
+                        <div class="toping_bawah_dp_product4">
+                            <div class="toping1_bawah_dp_product4">
+                                <div class="foto1_toping_bawah_dp_product4">
+                                    <div class="centang1_toping_bawah_dp_product4"></div>
+                                </div>
+                                <div class="nama1_toping_bawah_dp_product4">"Sereal"</div>
+                            </div>
+
+                            <div class="toping2_bawah_dp_product4">
+                                <div class="foto2_toping_bawah_dp_product4">
+                                    <div class="centang2_toping_bawah_dp_product4"></div>
+                                </div>
+                                <div class="nama2_toping_bawah_dp_product4">"Milo"</div>
+                            </div>
+
+                            <div class="toping3_bawah_dp_product4">
+                                <div class="foto3_toping_bawah_dp_product4">
+                                    <div class="centang3_toping_bawah_dp_product4"></div>
+                                </div>
+                                <div class="nama3_toping_bawah_dp_product4">"Oreo"</div>
+                            </div>
+
+                            <div class="toping4_bawah_dp_product4">
+                                <div class="foto4_toping_bawah_dp_product4">
+                                    <div class="centang4_toping_bawah_dp_product4"></div>
+                                </div>
+                                <div class="nama4_toping_bawah_dp_product4">"Regal"</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="kotak_harga_product4">
+                        <div class="tulisan_total_product4">Total</div>
+                        <div class="total_uang_product4"></div>
+                    </div>
+                </div>	
+            </div>
+
+            <!-- bagian add cart -->
+            <div class="add_cart_product4">
+                <div class="add_cart_close_product4">Close</div>
+                <div class="tulisan_add_cart_product4">Add Cart</div>
+            </div>
+        </div>
+
+		<!-- kotak my cart -->
+		<div class="container_my_cart">
+			<div class="cart_kiri">
+				<div class="cart_atas">
+					<div class="my_cart">My Cart</div>
+					<div class="review_order">Review Your Order</div>
+				</div>
+				<div class="cart_tengah">
+					<div class="product_cart1">
+						<div class="foto_cart1"></div>
+						<div class="informasi1_cart1">
+							<div class="nama_product_cart1">Chocolate</div>
+							<div class="nama_toping_cart1">Toping :</div>
+						</div>
+						<div class="informasi2_cart1">
+							<div class="harga_product_cart1">33.000</div>
+							<div class="gambar_sampah1"></div>
+						</div>
+					</div>
+					<div class="product_cart2">
+						<div class="foto_cart2"></div>
+						<div class="informasi1_cart2">
+							<div class="nama_product_cart2">Chocolate</div>
+							<div class="nama_toping_cart2">Toping :</div>
+						</div>
+						<div class="informasi2_cart2">
+							<div class="harga_product_cart2">33.000</div>
+							<div class="gambar_sampah2"></div>
+						</div>
+					</div>
+                </div>
+				<div class="cart_bawah">
+					<div class="cart_bawah_kiri">
+						<div class="cart_bawah_garis"></div>
+						<div class="cart_bawah_kirikiri">
+							<div class="cart_subtotal">Subtotal</div>
+							<div class="cart_qty">Qty</div>
+							<div class="cart_total">Total</div>
+						</div>
+						<div class="cart_bawah_kirikanan">
+							<div class="cart_subtotal_harga">69.000</div>
+							<div class="cart_qty_jumlah">2</div>
+							<div class="cart_total_harga">69.000</div>
+						</div>
+					</div>
+					<div class="cart_bawah_kanan">
+						<div class="gambar_nota"></div>
+						<div class="cart_nota">Attache of Transaction</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- kotak bagian kanan -->
+			<div class="cart_kanan">
+				<div class="cart_nama"><input type="text" placeholder="Nama"></div>
+				<div class="cart_email"><input type="text" placeholder="Email"></div>
+				<div class="cart_phone"><input type="text" placeholder="Phone"></div>
+				<div class="cart_poscode"><input type="text" placeholder="Pos Code"></div>
+				<div class="cart_addres"><input type="text" placeholder="Addres"></div>
+				<div class="cart_pay">Pay</div>
+			</div>
+		</div>
+
+        <!-- kotak utama profile pembeli-->
+        <div class="container_profile">
+            <!-- kotak ke 1 profile -->
+            <div class="kotak1_profile">
+                <div class="my_profile">My Profile</div>
+                <div class="my_transaction">My Transaction</div>
+            </div>
+
+            <!-- kotak ke 2 profile -->
+            <div class="kotak2_profile">
+                <!-- bagian kiri-->
+                <div class="kotak_foto_profile"></div>
+                <!-- bagian tengah -->
+                <div class="kotak_data_pembeli">
+                    <div class="data_pembeli_full_name">Full Name</div>
+                    <div class="data_pembeli_name">Dika</div>
+                    <div class="data_pembeli_email_name">email</div>
+                    <div class="data_pembeli_email">dika@gmail.com</div>
+                    <div class="close_kotak_profile">Close</div>
+                </div>
+                <!-- bagian kanan -->
+                <div class="kotak_transaction">
+                    <div class="transaction_informasi">
+                        <div class="transaction_pembelian1">
+                            <div class="transaction_foto_pembelian1"></div>
+                            <div class="transaction_product_pembelian1">
+                                <div class="transaction_nama1">Chocolate</div>
+                                <div class="transaction_waktu1">rabu, 8 februari 2023</div>
+                                <div class="transaction_toping1">Toping</div>
+                                <div class="transaction_harga1">Price : Rp. 33.000</div>
+                            </div>
+                        </div>
+                        <div class="transaction_pembelian2">
+                            <div class="transaction_foto_pembelian2"></div>
+                            <div class="transaction_product_pembelian2">
+                                <div class="transaction_nama2">Cappucino</div>
+                                <div class="transaction_waktu2">rabu, 8 februari 2023</div>
+                                <div class="transaction_toping2">Toping</div>
+                                <div class="transaction_harga2">Price : Rp. 33.000</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="transaction_data">
+                        <div class="transaction_lambang"></div>
+                        <div class="transaction_barcode"></div>
+                        <div class="transaction_otw">On The Way</div>
+                        <div class="transaction_sub_total">Sub Total : 69.000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- add product masuk -->
+        <div class="kotak_product_masuk">
+			<div class="product_masuk">
+				<div class="tulisan_product_masuk">Product</div>
+				<div class="nama_product_masuk"><input type="text" placeholder="Nama Product"></div>
+				<div class="harga_product_masuk"><input type="text" placeholder="Price"></div>
+				<div class="photo_product_masuk">Photo Product</div>
+				<div class="add_product_masuk">Add Product</div>
+				<div class="link_foto_product_masuk"></div>
+                <div class="close_product_masuk">close</div>
+			</div>
+			<div class="foto_product_masuk"></div>
+  
+		</div>
+
+        <!-- add toping masuk -->
+        <div class="kotak_toping_masuk">
+			<div class="toping_masuk">
+				<div class="tulisan_toping_masuk">Toping</div>
+				<div class="nama_toping_masuk"><input type="text" placeholder="Nama toping"></div>
+				<div class="harga_toping_masuk"><input type="text" placeholder="Price"></div>
+				<div class="photo_toping_masuk">Photo Toping</div>
+				<div class="add_toping_masuk">Add Toping</div>
+				<div class="link_foto_toping_masuk"></div>
+                <div class="close_toping_masuk">close</div>
+			</div>
+			<div class="foto_toping_masuk"></div>
+  
+		</div>
+
+        <!-- bagian income transaction -->
+        <div class="container_income">
+            <div class="tulisan_income_transaction">Income Transaction</div>
+			<table class="tabel_income">
+				<tr class="coloum1">
+					<td class="coloum1_1">No</td>
+					<td class="coloum1_2">Name</td>
+					<td class="coloum1_3">Addres</td>
+					<td class="coloum1_4">Post Code</td>
+					<td class="coloum1_5">Income</td>
+					<td class="coloum1_6">Status</td>
+					<td class="coloum1_7">Action</td>
+				</tr>
+				<tr class="coloum2">
+					<td class="coloum2_1">1</td>
+					<td class="coloum2_2">dika</td>
+					<td class="coloum2_3">kotabumi</td>
+					<td class="coloum2_4">11223</td>
+					<td class="coloum2_5">69.000</td>
+					<td class="coloum2_6">Waiting Approve</td>
+					<td class="coloum2_7">
+						<div class="cancel">Cancel</div>
+						<div class="approve">Approve</div>
+					</td>
+				</tr>
+				<tr class="coloum3">
+					<td class="coloum3_1">2</td>
+					<td class="coloum3_2">han</td>
+					<td class="coloum3_3">kobum</td>
+					<td class="coloum3_4">12233</td>
+					<td class="coloum3_5">30.000</td>
+					<td class="coloum3_6">Succes</td>
+					<td class="coloum3_7">
+						<div class="centang_coloum3_7"></div>
+					</td>
+				</tr>
+				<tr class="coloum4">
+					<td class="coloum4_1">3</td>
+					<td class="coloum4_2">alfa</td>
+					<td class="coloum4_3">bumi</td>
+					<td class="coloum4_4">11233</td>
+					<td class="coloum4_5">28.000</td>
+					<td class="coloum4_6">Cancel</td>
+					<td class="coloum4_7">
+						<div class="silang_coloum4_7"></div>
+					</td>
+				</tr>
+				<tr class="coloum5">
+					<td class="coloum5_1">4</td>
+					<td class="coloum5_2">falaq</td>
+					<td class="coloum5_3">bum</td>
+					<td class="coloum5_4">12312</td>
+					<td class="coloum5_5">30.000</td>
+					<td class="coloum5_6">On The Way</td>
+					<td class="coloum5_7">
+						<div class="centang_coloum5_7"></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+<!-- div penutup (container) -->
+
+    </div>
+<script src="ME.js"></script>    
+</body>
+</html>
